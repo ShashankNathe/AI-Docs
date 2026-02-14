@@ -58,7 +58,7 @@ export default function Register() {
                         <div>
                             <label className="block text-sm font-medium mb-2 text-[var(--text-secondary)]">Name</label>
                             <div className="relative">
-                                <User className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" />
+                                {/* <User className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" /> */}
                                 <input type="text" value={name} onChange={(e) => setName(e.target.value)}
                                     className="input-field pl-10" placeholder="Your name" required />
                             </div>
@@ -67,7 +67,7 @@ export default function Register() {
                         <div>
                             <label className="block text-sm font-medium mb-2 text-[var(--text-secondary)]">Email</label>
                             <div className="relative">
-                                <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" />
+                                {/* <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" /> */}
                                 <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}
                                     className="input-field pl-10" placeholder="you@example.com" required />
                             </div>
@@ -76,7 +76,7 @@ export default function Register() {
                         <div>
                             <label className="block text-sm font-medium mb-2 text-[var(--text-secondary)]">Password</label>
                             <div className="relative">
-                                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" />
+                                {/* <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" /> */}
                                 <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}
                                     className="input-field pl-10" placeholder="Min 6 characters" required minLength={6} />
                             </div>

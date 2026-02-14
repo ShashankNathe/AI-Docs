@@ -60,7 +60,7 @@ export default function Login() {
                         <div>
                             <label className="block text-sm font-medium mb-2 text-[var(--text-secondary)]">Email</label>
                             <div className="relative">
-                                <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" />
+                                {/* <Mail className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" /> */}
                                 <input type="email" value={email} onChange={(e) => setEmail(e.target.value)}
                                     className="input-field pl-10" placeholder="you@example.com" required />
                             </div>
@@ -69,7 +69,7 @@ export default function Login() {
                         <div>
                             <label className="block text-sm font-medium mb-2 text-[var(--text-secondary)]">Password</label>
                             <div className="relative">
-                                <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" />
+                                {/* <Lock className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-[var(--text-muted)]" /> */}
                                 <input type="password" value={password} onChange={(e) => setPassword(e.target.value)}
                                     className="input-field pl-10" placeholder="••••••••" required />
                             </div>
